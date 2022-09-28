@@ -190,6 +190,8 @@ body{
 
 /* FOOTER */
 
+/* FOOTER LEFT */
+
 footer{
     height: 90px;
     background-color: #282828;
@@ -236,4 +238,44 @@ footer .footer-left .options :first-child{
 footer .footer-left .options i:hover{
     color: white;
     cursor: pointer;
+}
+
+/* FOOTER RIGHT */
+
+footer .footer-right{
+    padding-right: 10px;
+}
+
+footer .footer-right i{
+    color: white;
+    padding: 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+footer .footer-right .bar hr{
+    width: 100px;
+    height: 5px;
+    background-color: #5A5A5A;
+    border: 0;
+    border-radius: 2px;
+    border-left: 30px solid #C1C1C1;
+    cursor: pointer;
+}
+
+footer .footer-right .bar hr:hover{
+    border-left: 30px solid greenyellow;
+}
+
+footer .footer-right .bar{
+    align-items: center;
+    position: relative;
+}
+
+footer .footer-right .circle{
+    position: absolute;
+    cursor: pointer;
+    right: 50px;
+    top: 0;
+
 }
