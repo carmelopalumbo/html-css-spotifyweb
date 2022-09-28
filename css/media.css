@@ -1,16 +1,16 @@
-@media screen and (max-width: 483px){
+@media screen and (max-width: 530px){
     .main-wrapper aside{
         width: 40px;
     }
      
     .main-wrapper header{
-        width: calc(100vw - 40px);
+        width: calc(100% - 40px);
     }
 
     .main-wrapper main{
-        width: calc(100vw - 40px);
+        width: calc(100% - 40px);
     }
-
+    
     /* NAVBAR */
     .main-wrapper aside .box-top .playlist,
     .main-wrapper aside .box-top .navbar ul li span,
@@ -37,7 +37,7 @@
         padding-left: 5px;
     }
 
-    footer .footer-middle{
-        width: 100%;
+    footer .footer-right i{
+        padding: 4px;
     }
 }
