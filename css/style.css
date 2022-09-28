@@ -7,3 +7,39 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/* barra laterale */
+
+aside{
+    background-color: black;
+    color: white;
+    width: 280px;
+}
+
+
+/* main */
+
+main{
+    display: flex;
+}
+
+.content{
+    width: calc(100vw - 280px);
+    height: calc(100vh - 90px);
+    overflow: auto; 
+}
+/* barra di navigazione inferiore */
+
+nav{
+    height: 90px;
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+}
+
+header{
+    height: 90px;
+    background-color: red;
+    position: fixed;
+    width: 100%;
+}
