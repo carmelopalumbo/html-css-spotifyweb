@@ -10,4 +10,30 @@
     .main-wrapper main{
         width: calc(100vw - 40px);
     }
+
+    /* NAVBAR */
+    .main-wrapper aside .box-top .playlist,
+    .main-wrapper aside .box-top .navbar ul li span,
+    .main-wrapper aside .box-bottom .profile-box .download span,
+    .main-wrapper aside .box-bottom .profile-box .account span{
+        display: none;
+    }
+
+    .main-wrapper aside .box-top,
+    .main-wrapper aside .box-bottom{
+    padding: 0 7px;
+    flex-direction: column;
+    } 
+
+    #logo-big{
+        content: url(../img/logo-small.svg);
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .main-wrapper aside .box-bottom .profile-box .download{
+        border: 0;
+        padding-left: 5px;
+    }
 }

@@ -21,44 +21,47 @@ body{
     background-color: black;
     overflow: auto;
     height: calc(100vh - 90px);
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #logo-big{
-    width: 170px;
-    padding: 15px;
+    width: 150px;
+    padding: 25px 0;
 }
 
 /* NAVBAR */
 
-.main-wrapper aside .box-menu{
+.main-wrapper aside .box-top,
+.main-wrapper aside .box-bottom{
     padding: 0 20px;
     flex-direction: column;
 }
 
-.main-wrapper aside .box-menu .navbar ul img{
+.main-wrapper aside .box-top .navbar ul img{
     width: 25px;
     vertical-align: middle;
 }
 
-.main-wrapper aside .box-menu .navbar ul{
+.main-wrapper aside .box-top .navbar ul{
     list-style: none;
 }
 
-.main-wrapper aside .box-menu .navbar ul li{
+.main-wrapper aside .box-top .navbar ul li{
     padding: 5px 0;
     color: grey;
 }
 
-.main-wrapper aside .box-menu .navbar ul li span{
+.main-wrapper aside .box-top .navbar ul li span{
     display: inline-block;
     cursor: pointer;
 }
 
-.main-wrapper aside .box-menu .navbar ul li span:hover{
+.main-wrapper aside .box-top .navbar ul li span:hover{
     color: white;
 }
 
-.main-wrapper aside .box-menu .navbar ul li span{
+.main-wrapper aside .box-top .navbar ul li span{
     font-size: 0.8rem;
     font-weight: bold;
     margin-left: 4px;
@@ -66,16 +69,16 @@ body{
 
 /* PLAYLIST */
 
-.main-wrapper aside .box-menu .playlist h4{
+.main-wrapper aside .box-top .playlist h4{
     color: white;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
-.main-wrapper aside .box-menu .playlist ul{
+.main-wrapper aside .box-top .playlist ul{
     list-style: none;
 }
 
-.main-wrapper aside .box-menu .playlist ul li{
+.main-wrapper aside .box-top .playlist ul li{
     color: grey;
     padding: 10px 0;
     font-size: 0.8rem;
@@ -83,11 +86,11 @@ body{
     cursor: pointer;
 }
 
-.main-wrapper aside .box-menu .playlist ul li:hover{
+.main-wrapper aside .box-top .playlist ul li:hover{
     color: white;
 }
 
-.main-wrapper aside .box-menu .playlist ul :first-child{
+.main-wrapper aside .box-top .playlist ul :first-child{
     font-size: 1.1rem;
 }
 
@@ -100,33 +103,33 @@ body{
 
 /* PROFILE */
 
-.main-wrapper aside .box-menu .profile-box .download{
+.main-wrapper aside .box-bottom .profile-box .download{
     border-bottom: 1px solid grey;
     padding-bottom: 10px;
     cursor: pointer;
 }
 
-.main-wrapper aside .box-menu .profile-box .download img{
+.main-wrapper aside .box-bottom .profile-box .download img{
     width: 18px;
     vertical-align: middle;
     padding-right: 3px;
 }
 
-.main-wrapper aside .box-menu .profile-box .download span{
+.main-wrapper aside .box-bottom .profile-box .download span{
     font-weight: bold;
     font-size: 0.8rem;
     color: grey;
 }
 
-.main-wrapper aside .box-menu .profile-box .download span:hover{
+.main-wrapper aside .box-bottom .profile-box .download span:hover{
     color: white;
 }
 
-.main-wrapper aside .box-menu .profile-box .account{
+.main-wrapper aside .box-bottom .profile-box .account{
     padding: 10px 0;
 }
 
-.main-wrapper aside .box-menu .profile-box .account img{
+.main-wrapper aside .box-bottom .profile-box .account img{
     width: 25px;
     background-color: grey;
     height: 25px;
@@ -134,12 +137,13 @@ body{
     vertical-align: middle;
 }
 
-.main-wrapper aside .box-menu .profile-box .account span{
+.main-wrapper aside .box-bottom .profile-box .account span{
     color: white;
     display: inline-block;
     font-weight: bold;
     font-size: 0.9rem;
     cursor: pointer;
+    padding-left: 3px;
 }
 
 /* HEADER */
