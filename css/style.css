@@ -247,6 +247,10 @@ footer .footer-left .options i:hover{
 
 /* FOOTER MIDDLE */
 
+footer .footer-middle .player-top{
+    text-align: center;
+}
+
 footer .footer-middle .player-top i{
     color: white;
     font-size: 1.3rem;
@@ -259,7 +263,6 @@ footer .footer-middle .player-top i:hover{
 }
 
 footer #play{
-    padding: 0 20px;
     font-size: 1.8rem;
 }
 
@@ -268,20 +271,30 @@ footer #play:hover{
 }
 
 footer .footer-middle .player-bottom{
-    padding-top: 15px;
+    padding-top: 10px;
+    align-items: center;
 }
 
 footer .footer-middle .player-bottom span{
     font-weight: bold;
     font-size: 0.7rem;
     color: white;
+    padding: 0 15px;
 }
 
 footer .footer-middle .player-bottom hr{
-
+    width: 30vw;
+    height: 5px;
+    background-color: #5A5A5A;
+    border: 0;
+    border-radius: 2px;
+    border-left: 60px solid #C1C1C1;
+    cursor: pointer;
 }
 
-
+footer .footer-middle .player-bottom hr:hover{
+    border-left: 60px solid greenyellow;
+}
 
 /* FOOTER RIGHT */
 
@@ -310,18 +323,7 @@ footer .footer-right .bar hr:hover{
     border-left: 30px solid greenyellow;
 }
 
-footer .footer-right .bar:hover .circle{
-    display: block;
-}
-
 footer .footer-right .bar{
     align-items: center;
     position: relative;
-}
-
-footer .footer-right .bar .circle{
-    display: none;
-    position: absolute;
-    top: 0px;
-    right: 50px;
 }
