@@ -14,17 +14,132 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-wrapper{
-    display: flex;
-    /* flex-wrap: wrap; */
-}
+/* ASIDE */
 
 .main-wrapper aside{
     width: 230px;
     background-color: black;
-    color: white;
     overflow: auto;
     height: calc(100vh - 90px);
+}
+
+#logo-big{
+    width: 170px;
+    padding: 15px;
+}
+
+/* NAVBAR */
+
+.main-wrapper aside .box-menu{
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.main-wrapper aside .box-menu .navbar ul img{
+    width: 25px;
+    vertical-align: middle;
+}
+
+.main-wrapper aside .box-menu .navbar ul{
+    list-style: none;
+}
+
+.main-wrapper aside .box-menu .navbar ul li{
+    padding: 5px 0;
+    color: grey;
+}
+
+.main-wrapper aside .box-menu .navbar ul li span{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.main-wrapper aside .box-menu .navbar ul li span:hover{
+    color: white;
+}
+
+.main-wrapper aside .box-menu .navbar ul li span{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+/* PLAYLIST */
+
+.main-wrapper aside .box-menu .playlist h4{
+    color: white;
+    padding-top: 15px;
+}
+
+.main-wrapper aside .box-menu .playlist ul{
+    list-style: none;
+}
+
+.main-wrapper aside .box-menu .playlist ul li{
+    color: grey;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-wrapper aside .box-menu .playlist ul li:hover{
+    color: white;
+}
+
+.main-wrapper aside .box-menu .playlist ul :first-child{
+    font-size: 1.1rem;
+}
+
+#plus{
+    color: grey;
+    font-size: 2.5rem;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+/* PROFILE */
+
+.main-wrapper aside .box-menu .profile-box .download{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.main-wrapper aside .box-menu .profile-box .download img{
+    width: 18px;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+.main-wrapper aside .box-menu .profile-box .download span{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.main-wrapper aside .box-menu .profile-box .download span:hover{
+    color: white;
+}
+
+.main-wrapper aside .box-menu .profile-box .account{
+    padding: 10px 0;
+}
+
+.main-wrapper aside .box-menu .profile-box .account img{
+    width: 25px;
+    background-color: grey;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.main-wrapper aside .box-menu .profile-box .account span{
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
 }
 
 /* HEADER */
