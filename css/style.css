@@ -190,7 +190,6 @@ body{
 
 /* FOOTER */
 
-/* FOOTER LEFT */
 
 footer{
     height: 90px;
@@ -199,10 +198,11 @@ footer{
     align-items: center;
 }
 
+/* FOOTER LEFT */
+
 footer .footer-left{
-    justify-content: space-between;
     align-items: center;
-    width: 15%;
+    justify-content: space-between;
 }
 
 footer .footer-left img{
@@ -220,6 +220,7 @@ footer .footer-left .album .text{
     font-size: 0.8rem;
     font-weight: bold;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer .footer-left .album .text :first-child{
@@ -231,14 +232,56 @@ footer .footer-left .options{
     color: grey;
 }
 
-footer .footer-left .options :first-child{
-    padding-right: 10px;
+footer .footer-left .album .text :last-child:hover{
+    text-decoration: underline;
+}
+
+footer .footer-left .options i{
+    padding: 0 10px;
 }
 
 footer .footer-left .options i:hover{
     color: white;
     cursor: pointer;
 }
+
+/* FOOTER MIDDLE */
+
+footer .footer-middle .player-top i{
+    color: white;
+    font-size: 1.3rem;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+footer .footer-middle .player-top i:hover{
+    font-size: 1.5rem;
+}
+
+footer #play{
+    padding: 0 20px;
+    font-size: 1.8rem;
+}
+
+footer #play:hover{
+    font-size: 2rem;
+}
+
+footer .footer-middle .player-bottom{
+    padding-top: 15px;
+}
+
+footer .footer-middle .player-bottom span{
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: white;
+}
+
+footer .footer-middle .player-bottom hr{
+
+}
+
+
 
 /* FOOTER RIGHT */
 
@@ -267,15 +310,18 @@ footer .footer-right .bar hr:hover{
     border-left: 30px solid greenyellow;
 }
 
+footer .footer-right .bar:hover .circle{
+    display: block;
+}
+
 footer .footer-right .bar{
     align-items: center;
     position: relative;
 }
 
-footer .footer-right .circle{
+footer .footer-right .bar .circle{
+    display: none;
     position: absolute;
-    cursor: pointer;
+    top: 0px;
     right: 50px;
-    top: 0;
-
 }
