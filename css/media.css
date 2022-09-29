@@ -1,4 +1,14 @@
-@media screen and (max-width: 625px){
+@media screen and (max-width: 650px){
+
+    /* ELIMINO CONTROLLO VOLUME */
+    
+    footer .footer-right #my2Bar{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 628px){
 
     /* MAIN BOX */
 
@@ -58,8 +68,7 @@
         padding: 0 5px;
     }
 
-    footer .footer-right .bar hr{
+    footer .footer-right .icons :last-child{
         display: none;
     }
-
 }
