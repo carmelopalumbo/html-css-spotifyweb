@@ -186,6 +186,8 @@ body{
     transform: scale(1.1);
 }
 
+/* MAIN */
+
 .main-wrapper main{
     background-color: #141922;
     width: calc(100% - 230px);
@@ -193,8 +195,6 @@ body{
     padding: 90px 20px 20px 20px;
     overflow: auto;
 }
-
-/* MAIN */
 
 /* MENU MAIN */
 
@@ -229,38 +229,16 @@ body{
 
 .main-wrapper main .album-covers{
     flex-wrap: wrap;
-    /* justify-content: space-between; */
 }
 
 .main-wrapper main .album-covers .cover{
-    position: relative;
-    width: 200px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-}
-
-.main-wrapper main .album-covers .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .5);
-    width: 200px;
-    cursor: pointer;
-    height: 200px;
-    font-size: 4.5rem;
-    color: white;
-    text-align: center;
-    line-height: 200px;
-    display: none;
-}
-
-.main-wrapper main .album-covers .cover:hover .overlay{
-    display: block;
+    width: calc(100% / 6);
+    padding: 10px;
 }
 
 .main-wrapper main .album-covers .cover img{
-    width: 200px;
-    height: 200px;
+   width: 100%;
+   cursor: pointer;
 }
 
 .main-wrapper main .album-covers .cover p{

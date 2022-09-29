@@ -1,12 +1,10 @@
-@media screen and (max-width: 650px){
 
-    /* ELIMINO CONTROLLO VOLUME */
-
-    footer .footer-right #my2Bar{
-        display: none;
+@media screen and (max-width: 1000px){
+    .main-wrapper main .album-covers .cover{
+        width: calc(100% / 3);
+        padding: 10px;
     }
 }
-
 
 @media screen and (max-width: 714px){
 
@@ -70,5 +68,20 @@
 
     footer .footer-right .icons :last-child{
         display: none;
+    }
+   
+}
+
+@media screen and (max-width: 650px){
+
+    /* ELIMINO CONTROLLO VOLUME */
+
+    footer .footer-right #my2Bar{
+        display: none;
+    }
+
+    .main-wrapper main .album-covers .cover{
+        width: calc(100% / 2);
+        padding: 10px;
     }
 }
