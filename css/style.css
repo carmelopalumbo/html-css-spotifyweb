@@ -56,11 +56,11 @@ body{
 .main-wrapper aside .box-top .navbar ul li{
     padding: 5px 0;
     color: grey;
+    cursor: pointer;
 }
 
 .main-wrapper aside .box-top .navbar ul li span{
     display: inline-block;
-    cursor: pointer;
 }
 
 .main-wrapper aside .box-top .navbar ul li span:hover{
@@ -74,6 +74,11 @@ body{
 }
 
 /* PLAYLIST */
+
+.main-wrapper aside .box-top .playlist{
+    overflow: auto;
+    height: calc(50vh - 100px );
+}
 
 .main-wrapper aside .box-top .playlist h4{
     color: white;
@@ -177,7 +182,7 @@ body{
 }
 
 .main-wrapper header a:hover{
-    font-size: 0.85rem;
+    transform: scale(1.1);
 }
 
 .main-wrapper main{
@@ -208,7 +213,7 @@ footer .footer-left{
 footer .footer-left img{
     width: 70px;
     object-fit: cover;
-    padding-left: 10px;
+    padding-left: 1px;
 }
 
 footer .footer-left .album{
@@ -249,7 +254,6 @@ footer .footer-left .options i:hover{
 
 footer .footer-middle .player-top{
     text-align: center;
-    min-width: 214px;
 }
 
 footer .footer-middle .player-top i{
@@ -260,7 +264,7 @@ footer .footer-middle .player-top i{
 }
 
 footer .footer-middle .player-top i:hover{
-    font-size: 1.5rem;
+    transform: scale(1.1);
 }
 
 footer #play{
@@ -268,7 +272,7 @@ footer #play{
 }
 
 footer #play:hover{
-    font-size: 2rem;
+    transform: scale(1.2);
 }
 
 footer .footer-middle .player-bottom{
@@ -283,30 +287,27 @@ footer .footer-middle .player-bottom span{
     padding: 0 15px;
 }
 
-footer .footer-middle .player-bottom hr{
-    width: 20vw;
-    height: 5px;
-    background-color: #5A5A5A;
-    border: 0;
-    border-radius: 2px;
-    border-left: 60px solid #C1C1C1;
-    cursor: pointer;
+footer .footer-middle .player-bottom .bar{
+    position: relative;
 }
 
-footer .footer-middle .player-bottom hr:hover{
-    border-left: 60px solid greenyellow;
+footer .footer-middle .player-bottom .bar .bar-grey{
+    border-bottom: 5px solid #C1C1C1;
+    height: 2px;
+    width: 25vw;
+    cursor: pointer;
+    border-radius: 2px;
 }
 
 /* FOOTER RIGHT */
 
 footer .footer-right{
     padding-right: 10px;
-    min-width: 145px;
 }
 
 footer .footer-right i{
     color: white;
-    padding: 8px;
+    padding: 0 8px;
     font-size: 0.8rem;
     cursor: pointer;
 }
