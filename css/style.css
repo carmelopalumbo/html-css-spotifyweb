@@ -160,7 +160,7 @@ body{
 /* HEADER */
 
 .main-wrapper header{
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .5);
     height: 75px;
     position: fixed;
     right: 0;
@@ -186,12 +186,47 @@ body{
 }
 
 .main-wrapper main{
-    background-color: aquamarine;
+    background-color: #141922;
     width: calc(100% - 230px);
     height: calc(100vh - 90px);
     padding: 90px 20px 20px 20px;
     overflow: auto;
 }
+
+/* MAIN */
+
+/* MENU MAIN */
+
+.main-wrapper main .main-nav ul{
+    list-style: none;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.main-wrapper main .main-nav ul li{
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: grey;
+    cursor: pointer;
+}
+
+.main-wrapper main .main-nav ul li:hover{
+   color: white;
+}
+
+/* ALBUMS */
+
+.main-wrapper main h2{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
 
 /* FOOTER */
 
