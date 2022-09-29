@@ -1,6 +1,7 @@
 
 @media screen and (max-width: 1000px){
-    .main-wrapper main .album-covers .cover{
+    .main-wrapper main .album-covers .cover,
+    .main-wrapper main .mix-covers .cover{
         width: calc(100% / 3);
         padding: 10px;
     }
@@ -80,7 +81,8 @@
         display: none;
     }
 
-    .main-wrapper main .album-covers .cover{
+    .main-wrapper main .album-covers .cover,
+    .main-wrapper main .mix-covers .cover{
         width: calc(100% / 2);
         padding: 10px;
     }
