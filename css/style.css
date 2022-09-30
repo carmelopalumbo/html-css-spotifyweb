@@ -436,17 +436,6 @@ footer .footer-middle .player-bottom #myBar:hover::after{
     background-color: white;
 }
 
-footer .footer-middle .player-bottom .bar .bar-green{
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-bottom: 5px solid green;
-    height: 2px;
-    width: 5vw;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
 /* FOOTER RIGHT */
 
 footer .footer-right{
@@ -459,20 +448,6 @@ footer .footer-right i{
     padding: 0 8px;
     font-size: 0.8rem;
     cursor: pointer;
-}
-
-footer .footer-right .bar hr{
-    width: 5vw;
-    height: 5px;
-    background-color: #5A5A5A;
-    border: 0;
-    border-radius: 2px;
-    border-left: 30px solid #C1C1C1;
-    cursor: pointer;
-}
-
-footer .footer-right .bar hr:hover{
-    border-left: 30px solid greenyellow;
 }
 
 footer .footer-right #my2Bar{
