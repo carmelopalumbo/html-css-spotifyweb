@@ -206,7 +206,7 @@ body{
 }
 
 .main-wrapper main .main-nav ul li{
-    padding: 2px 10px;
+    margin: 2px 10px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8rem;
@@ -214,8 +214,9 @@ body{
     cursor: pointer;
 }
 
-.main-wrapper main .main-nav ul li:hover{
+.main-wrapper main .main-nav ul li:active{
    color: white;
+   border-bottom: 3px solid green;
 }
 
 /* ALBUMS */
